@@ -4,8 +4,8 @@
 ---
 
 ## IMPORTANT: Public IP vs Local IP
-- **Last time you used**: Public IP (from curl ipconfig.me) ❌ - This requires router port forwarding
-- **This time use**: Local IP (from ipconfig) ✅ - Works directly on same WiFi
+- **Last time you used**: Public IP (from curl ipconfig.me)  - This requires router port forwarding
+- **This time use**: Local IP (from ipconfig)  - Works directly on same WiFi
 
 ---
 
@@ -246,8 +246,8 @@ FLUSH PRIVILEGES;
 ### Problem 3: Telnet/ping works but MySQL Workbench fails
 
 **Check:**
-- ✅ Port number is 3306 in MySQL Workbench?
-- ✅ Username includes the one you created (not root)?
+-  Port number is 3306 in MySQL Workbench?
+-  Username includes the one you created (not root)?
 
 **Solutions:**
 - Try connecting via command line first:
@@ -335,7 +335,7 @@ SHOW DATABASES;
 
 ## Security Notes
 
-⚠️ **Important Security Tips:**
+ **Important Security Tips:**
 
 1. **Don't use this setup over public WiFi** - Only use on trusted home/office networks
 2. **Use strong passwords** - At least 12 characters, mix of letters, numbers, symbols
@@ -376,4 +376,4 @@ If you still face issues after following all steps:
    - `ping` and `telnet` results (your laptop)
 3. **Check MySQL error log** - Usually at: `C:\ProgramData\MySQL\MySQL Server 8.0\Data\*.err`
 
-Good luck! This should work smoothly over local WiFi. 🚀
+
