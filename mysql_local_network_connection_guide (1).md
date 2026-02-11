@@ -205,10 +205,10 @@ Test-NetConnection -ComputerName 192.168.1.105 -Port 3306
 ### Problem 1: "Can't connect to MySQL server"
 
 **Check:**
-- ✅ Both laptops on same WiFi?
-- ✅ Correct local IP address (run `ipconfig` again)?
-- ✅ MySQL service running on friend's laptop?
-- ✅ Firewall rules added correctly?
+-  Both laptops on same WiFi?
+-  Correct local IP address (run `ipconfig` again)?
+-  MySQL service running on friend's laptop?
+-  Firewall rules added correctly?
 
 **Solutions:**
 ```cmd
@@ -225,8 +225,8 @@ netstat -an | findstr 3306
 **This means connection works, but authentication failed**
 
 **Check:**
-- ✅ Username and password correct?
-- ✅ User created with correct host pattern?
+-  Username and password correct?
+-  User created with correct host pattern?
 
 **Solutions:**
 ```sql
