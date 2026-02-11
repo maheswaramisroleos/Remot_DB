@@ -365,15 +365,4 @@ SHOW DATABASES;
 
 ---
 
-## Need More Help?
-
-If you still face issues after following all steps:
-
-1. **Screenshot the error** - The exact error message helps
-2. **Run diagnostics** - Include output from:
-   - `ipconfig` (both laptops)
-   - `netstat -an | findstr 3306` (friend's laptop)
-   - `ping` and `telnet` results (your laptop)
-3. **Check MySQL error log** - Usually at: `C:\ProgramData\MySQL\MySQL Server 8.0\Data\*.err`
-
 
